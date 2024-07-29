@@ -84,8 +84,7 @@ Staffs: Self-referencing relationship for managers.
 
 ## Entity-Relationship Diagram (ERD)
 
-![ER Diagram](Bikestores Database ER Diagram.png)
-
+(https://github.com/aakaash912/NL2SQL_Snowflake/blob/23f762c6270998c6b83852ce43dc34299a8a4c0d/Bikestores%20Database%20ER%20Diagram.png)
 Setup
 1. Clone the Repository
 2. Install Required Packages by running the First Cell.
