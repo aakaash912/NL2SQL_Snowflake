@@ -98,30 +98,30 @@ Staffs: Self-referencing relationship for managers.
    	5. Making use of Ollama due to Data Safety and easy integration with Python and Langchain.
 4. Setup Environment Variables:
 
-LANGCHAIN_ENDPOINT="https://api.smith.langchain.com"
+   LANGCHAIN_ENDPOINT="https://api.smith.langchain.com"
 
-LANGCHAIN_API_KEY="your_api_key_here"
+   LANGCHAIN_API_KEY="your_api_key_here"
 
-LANGCHAIN_TRACING_V2="true"
+   LANGCHAIN_TRACING_V2="true"
 
-LANGCHAIN_PROJECT="your_project_name_here"
+   LANGCHAIN_PROJECT="your_project_name_here"
 
 In Jupyter Notebook:
 5. Setup Snowflake Credentials for Connection:
 
-username = "your_username_here"
+   username = "your_username_here"
 
-password = "your_password_here"
+   password = "your_password_here"
 
-account = "your_account_identifier_here typically in the format account_name.region.cloud"
+   account = "your_account_identifier_here typically in the format account_name.region.cloud"
 
-database = "your_database_name_here"
+   database = "your_database_name_here"
 
-warehouse = "your_warehouse_name_here"
+   warehouse = "your_warehouse_name_here"
 
-role = "your_role_name_here"
+   role = "your_role_name_here"
 
-schema = "your_schema_name_here"
+   schema = "your_schema_name_here"
 
 6. Few Shot Examples: The cell with the list named 'examples' has few shot examples for the 'Bikestores' Database. Hard coding is required for giving in Few shot examples that pertain to our own database.
 
