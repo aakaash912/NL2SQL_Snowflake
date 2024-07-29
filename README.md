@@ -151,16 +151,16 @@ Note: The employee(s) listed above are the top performer(s) based on total sales
 
 
 
-Contributing
+# Contributing
 We welcome contributions to enhance the NL2SQL model. Please fork the repository and submit a pull request with your proposed changes.
 
-How the Code is Organized
+# How the Code is Organized
 Model Architecture
 Data Input for LLM: Feeding the LLM with the Database Structure and memory for Follow Up questions and also Few Shot Prompts for relevancy selected with Dynamic Few Shot Prompt Selection based on Semantics.
 Query Generation and Execution: Based on the inputs - Database Structure and the user's question, queries are generated and executed.
 Post-Processing: The outputs from Query Execution is then sent to the LLM for phrasing the final output.
 All the above are processed in a flow using Langchain's Features.
 
-Testing
+# Testing
 Ensure you have a test database setup with mock data for validating the model outputs.
 Utilize the included test cases to evaluate model performance.
