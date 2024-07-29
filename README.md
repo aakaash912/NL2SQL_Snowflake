@@ -84,7 +84,9 @@ Staffs: Self-referencing relationship for managers.
 
 # Entity-Relationship Diagram (ERD)
 <img src="https://github.com/aakaash912/NL2SQL_Snowflake/blob/23f762c6270998c6b83852ce43dc34299a8a4c0d/Bikestores%20Database%20ER%20Diagram.png">
-# Setup
+
+# Setup:
+
 1. Clone the Repository
 2. Install Required Packages by running the First Cell.
 3. Follow the Next Section to Setup the Runtime for Google Colab. (Ignore for Windows)
