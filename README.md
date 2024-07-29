@@ -1,21 +1,21 @@
 # NL2SQL_Snowflake
 Natural Language to SQL Query Induced Chatbot For Personal Snowflake Databases using Llama 3.1 with Ollama Framework for LLMs and Langchain.
 
-Overview
+# Overview
 The NL2SQL Model Project is designed to convert natural language queries into SQL commands, enabling users to interact with databases using everyday language. This project leverages advanced AI models to understand and translate user inputs into precise SQL queries, specifically optimized for Snowflake databases.
 
-Features
+# Features
 1. Natural Language Processing: Converts user queries in natural language to SQL statements.
 2. Database Compatibility: Optimized for Snowflake, ensuring seamless database interaction.
 3. Scalability: Capable of handling complex queries involving multiple tables and conditions.
 4. User-Friendly: Designed to make database querying accessible to non-technical users.
 
-Installation
+# Installation
 Prerequisites
 1. Python 3.7+: Ensure you have Python installed on your system.
 2. Jupyter Notebook: For running and testing the notebook.
    
-Data Base Used here:  
+# Data Base Used here:  
 The BikeStores Database from sqlservertutorial.com has been used here. But Instead of 2 schemas, a single schema has been utilized here as ths version of the Chatbot has not been included with Cross Schema Support for Snowflake with SQLAlchemy. Other Database platforms might provide Cross Schema Support when used with SQLAlchemy.
 
 Tables
@@ -82,10 +82,9 @@ Products to Stocks: Many-to-many relationship (through stocks).
 Stores to Stocks: One-to-many relationship.
 Staffs: Self-referencing relationship for managers.
 
-## Entity-Relationship Diagram (ERD)
-
-(https://github.com/aakaash912/NL2SQL_Snowflake/blob/23f762c6270998c6b83852ce43dc34299a8a4c0d/Bikestores%20Database%20ER%20Diagram.png)
-Setup
+# Entity-Relationship Diagram (ERD)
+<img src="https://github.com/aakaash912/NL2SQL_Snowflake/blob/23f762c6270998c6b83852ce43dc34299a8a4c0d/Bikestores%20Database%20ER%20Diagram.png">
+# Setup
 1. Clone the Repository
 2. Install Required Packages by running the First Cell.
 3. Follow the Next Section to Setup the Runtime for Google Colab. (Ignore for Windows)
